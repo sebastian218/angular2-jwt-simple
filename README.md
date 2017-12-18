@@ -1,15 +1,17 @@
-# node-jwt-simple
+# angular2-jwt-simple
 
+This is a fork of excellent Kazuhito Hokamura node-jwt-simple module updated to work with angular 2/5.
 [JWT(JSON Web Token)](http://self-issued.info/docs/draft-jones-json-web-token.html) encode and decode module for node.js.
+
 
 ## Install
 
-    $ npm install jwt-simple
+    $ npm install angular2-jwt-simple
 
 ## Usage
 
 ```javascript
-var jwt = require('jwt-simple');
+var jwt = require('angular2-jwt-simple');
 var payload = { foo: 'bar' };
 var secret = 'xxx';
 

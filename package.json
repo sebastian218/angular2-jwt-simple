@@ -1,11 +1,11 @@
 {
-  "name": "jwt-simple",
-  "description": "JWT(JSON Web Token) encode and decode module",
-  "version": "0.5.1",
-  "author": "Kazuhito Hokamura <k.hokamura@gmail.com>",
+  "name": "angular2-jwt-simple",
+  "description": "JWT encode and decode module. angular2 fork of great node-jwt-simple by Kazuhito Hokamura",
+  "version": "0.5.2",
+  "author": "Tomas Bulva <tom.bulva@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/hokaccha/node-jwt-simple.git"
+    "url": "https://github.com/tomasbulva/node-jwt-simple"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -24,5 +24,9 @@
     "encode",
     "decode"
   ],
-  "main": "./index"
+  "main": "./index",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "@types/jwt-simple": "^0.5.33"
+  }
 }
