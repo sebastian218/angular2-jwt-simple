@@ -27,6 +27,7 @@
   "main": "./index",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "@types/jwt-simple": "^0.5.33"
+    "@types/jwt-simple": "^0.5.33",
+    "buffer": "^5.1.0"
   }
 }
