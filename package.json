@@ -1,7 +1,7 @@
 {
   "name": "angular2-jwt-simple",
   "description": "JWT encode and decode module. angular2 fork of great node-jwt-simple by Kazuhito Hokamura",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "author": "Tomas Bulva <tom.bulva@gmail.com>",
   "repository": {
     "type": "git",
